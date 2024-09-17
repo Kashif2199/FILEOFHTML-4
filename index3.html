@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card-container {
+            background-color: white;
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .card-subtitle {
+            font-size: 18px;
+            color: gray;
+            margin-bottom: 20px;
+        }
+
+        .panda-image {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .student-name {
+            font-size: 20px;
+            color: #669900;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .course-info {
+            font-size: 16px;
+            color: gray;
+        }
+
+        .year-info {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .rating {
+            margin-top: 10px;
+        }
+
+        .rating span {
+            font-size: 18px;
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+        <div class="card-title">Title</div>
+        <div class="card-subtitle">Panda Card</div>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0t_sWK2tIszRcW89B_8k5_qfHWpaTQizmDw&s" alt="Panda" class="panda-image">
+        
+        <div class="student-name">John Doe</div>
+        <div class="course-info">
+            Computer Science 1<br>
+            Computer Science 2
+        </div>
+        <div class="year-info">Year: 3</div>
+
+        <div class="rating">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+    </div>
+
+</body>
+</html>
